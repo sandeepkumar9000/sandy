@@ -1,0 +1,119 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+.navclass{
+    display: flex;
+    justify-content: center;
+  width: 100%;
+}
+.navlink{
+   
+   width: 80px;
+   color:rgb(68, 61, 72);
+}
+.navlink:hover{
+    font-size: 20px;
+    transform: scale(1.1);
+    color: brown;
+}
+*{
+    text-decoration: none;
+    background-color:rgb(225, 197, 197);
+}
+.logotext{
+    font-size: 2rem;
+}
+.contact-button{
+    color: white;
+    margin: 4px;
+    border: 2px solid rgb(42, 106, 190);
+    background-color: rgb(42, 106, 190);
+    border-radius: 8px;
+    padding: 0.3rem;
+}
+.contact-button:hover{
+    color: aqua;
+}
+.left{
+
+margin: 50px;
+width: 400px;
+}
+.left:hover{
+    color: rgb(86, 72, 115);
+}
+.mainclass{
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    border: 4px ;
+    border-radius: 50%;
+    margin-right: 50px;
+   
+}
+.right img{
+    border-radius: 50%;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(17, 16, 17, 0.3) 10px 10px, rgba(18, 18, 18, 0.2) 15px 15px, rgba(14, 13, 13, 0.1) 20px 20px, rgba(7, 7, 7, 0.05) 25px 25px;
+}
+.right img:hover{
+    transform: scale(1.1);
+}
+.contant{
+    margin: 30%;
+}
+.abutton:hover{
+    color: rgb(9, 2, 15);
+}
+.bbutton:hover{
+    color: rgb(20, 3, 35);
+}
+
+.abutton{
+    color: antiquewhite;
+    border: 2px solid white;
+    background-color:rgb(42, 106, 190);
+    border-radius: 8px;
+}
+.bbutton{
+    color: antiquewhite;
+    border: 2px solid white;
+    background-color: rgb(42, 106, 190);
+    border-radius: 8px;
+}
+.SECONDPAGE{
+    display: flex;
+}
+.paragraph{
+    font-size: 20px;
+    padding: 2%;
+}
+.paragraph:hover{
+    color: rgb(133, 25, 95);
+}
+.photo img{
+    border-radius: 5%;
+}
+.photo img:hover{
+    transform: scale(1.1);
+}
+.heading:hover{
+    transform: scale(1.1);
+    color: blueviolet;
+}
+.two{
+padding: 9%;
+}
+.foot{
+    margin: 4%;
+}
+.company{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.company:hover{
+    transform: scale(1.1);
+}
